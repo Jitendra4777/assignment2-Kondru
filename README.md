@@ -24,3 +24,11 @@ Best **Romantic Destination Island** and very **Beautiful Beaches** where we can
     5. Turn right
     6. Turn right 
 6. Destination to Worlds of Fun Reached.
+* Swimsuit
+* BackPack
+    * Towel
+    * Sunscreen
+    * Empty water bottle
+* stroller or wagon if you have older kids
+* flip flops for water park
+* Definitely Some Active Friends
