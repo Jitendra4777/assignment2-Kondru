@@ -48,3 +48,11 @@ This Table Data is related to Famous Indian spicy Dishes available in India.
 | Gongura Mutton |    Guntur,India   |   $5 |
 | Chicken Mandi | Vijayawada,India |    $12 |
 | Bongulo Chicken| Araku,India | $3|
+
+-------
+
+# Pithy Quotes
+
+> Never hate your enemies. It affects your judgment - *Maria Puzo*
+
+> You only live once, but if you do it right, once is enough — *Mae West*
