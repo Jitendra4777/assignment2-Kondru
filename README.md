@@ -34,3 +34,17 @@ Best **Romantic Destination Island** and very **Beautiful Beaches** where we can
 * Definitely Some Active Friends
 
 **[Go to AboutMe File](AboutMe.md)**
+
+
+-----
+
+# TABLES
+
+This Table Data is related to Famous Indian spicy Dishes available in India.
+
+| Food/Drink  |     Location      |  Amount |
+|----------|:-------------:|------:|
+| Chicken DumBiryani |  Hyderabad,India | $4 |
+| Gongura Mutton |    Guntur,India   |   $5 |
+| Chicken Mandi | Vijayawada,India |    $12 |
+| Bongulo Chicken| Araku,India | $3|
