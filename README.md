@@ -56,3 +56,41 @@ This Table Data is related to Famous Indian spicy Dishes available in India.
 > Never hate your enemies. It affects your judgment - *Maria Puzo*
 
 > You only live once, but if you do it right, once is enough — *Mae West*
+
+------
+
+# Code Fencing
+
+> A bipartite graph is possible if the graph coloring is possible using two colors such that vertices in a set are colored with the same color. Note that it is possible to color a cycle graph with even cycle using two colors.Refer this site for more info <https://www.geeksforgeeks.org/bipartite-graph/>
+
+```
+{
+int n;
+vector<vector<int>> adj;
+
+vector<int> side(n, -1);
+bool is_bipartite = true;
+queue<int> q;
+for (int st = 0; st < n; ++st) {
+    if (side[st] == -1) {
+        q.push(st);
+        side[st] = 0;
+        while (!q.empty()) {
+            int v = q.front();
+            q.pop();
+            for (int u : adj[v]) {
+                if (side[u] == -1) {
+                    side[u] = side[v] ^ 1;
+                    q.push(u);
+                } else {
+                    is_bipartite &= side[u] != side[v];
+                }
+            }
+        }
+    }
+}
+
+cout << (is_bipartite ? "YES" : "NO") << endl;
+}
+```
+Code Source <https://cp-algorithms.com/graph/bipartite-check.html>
